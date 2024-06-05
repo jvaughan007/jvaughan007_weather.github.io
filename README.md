@@ -32,7 +32,7 @@ cd weather-app
 npm install
 ```
 
-### Create a .env file in the root directory and add your OpenWeatherMap API key:
+### Create a .env file in the root directory and add your [OpenWeatherMap API](https://openweathermap.org/api) key:
 
 ```
 REACT_APP_WEATHER_API_KEY=your_api_key_here
@@ -74,3 +74,6 @@ This is the main component of the application. It includes the following functio
     - handleChangZipcode: Updates the zipcode state when the input changes.
     - handleChangeCountry: Updates the countrycode state when the country selection changes.
     - handleSearch: Validates inputs, makes the API call, and updates the weather state.
+
+## Acknowledgements
+- [OpenWeatherMap API](https://openweathermap.org/api) for providing weather data.
