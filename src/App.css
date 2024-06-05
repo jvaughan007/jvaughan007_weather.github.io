@@ -2,16 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+body {
+  margin-top: -20px;
+ }
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +17,54 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  padding: 10px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  padding: 10px;
+  margin: 10px;
+}
+
+div {
+  margin-top: 20px;
+}
+
+select {
+  padding: 10px;
+  margin: 10px;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherItems {
+  margin: 1em;
+}
+
+.header_h1 {
+  margin-bottom: -2rem;
+}
+
+.header_h3 {
+  margin-bottom: -1rem;
+}
+
+.api_promo {
+  max-width: 700px;
+  min-width: 500px;
+  margin-bottom: 0rem;
+}
+
+a {
+  color: #87CEEB;
+}
+
+a:hover {
+  color: #6495ED;
 }
