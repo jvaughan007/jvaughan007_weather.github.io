@@ -71,6 +71,6 @@ This is the main component of the application. It includes the following functio
     - weather: Stores the fetched weather data.
     - error: Stores any error messages related to input validation or API calls.
 - Handlers
-- handleChangZipcode: Updates the zipcode state when the input changes.
-- handleChangeCountry: Updates the countrycode state when the country selection changes.
-- handleSearch: Validates inputs, makes the API call, and updates the weather state.
+    - handleChangZipcode: Updates the zipcode state when the input changes.
+    - handleChangeCountry: Updates the countrycode state when the country selection changes.
+    - handleSearch: Validates inputs, makes the API call, and updates the weather state.
