@@ -31,7 +31,7 @@ const App = () => {
   const handleSearch = async () => {
     //Fetch Weather Data Here
     const apiKey = process.env.REACT_APP_WEATHER;
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${zipcode},${countrycode}&appid=${apiKey}`;
+    const url = `http://api.openweathermap.org/data/2.5/weather?q=${zipcode},${countrycode}&appid=${apiKey}`;
 
     if (!zipcode || !countrycode) {
       setError('Please enter both a Zipcode and a Country.');
