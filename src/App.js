@@ -30,7 +30,7 @@ const App = () => {
 
   const handleSearch = async () => {
     //Fetch Weather Data Here
-    const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
+    const apiKey = process.env.REACT_APP_WEATHER;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${zipcode},${countrycode}&appid=${apiKey}`;
 
     if (!zipcode || !countrycode) {
